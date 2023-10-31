@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="/my-handling-form-page" method="post">
+      <div class="form-example">
+        <p><label for="mail">Enter your email: </label></p>
+        <input type="email" id="mail" name="user_email" />
+      </div>
+
+      <label for="whyiscodingcool"> Why is Coding Cool?</label>
+      <p>
+        <select>
+          <option>Select an option</option>
+          <option>Because it's interesting!</option>
+          <option>Because it's fun!</option>
+          <option>Because it's powerful!</option>
+        </select>
+      </p>
+      <label for="FavoriteLanguage">Favorite Language (choose one)</label>
+
+      <p>
+        <input type="radio" name="size" id="option_1" value="HTML" />
+        <label for="option_1">HTML</label>
+        <input type="radio" name="size" id="option_2" value="CSS" />
+        <label for="option_2">CSS</label>
+        <input type="radio" name="size" id="option_3" value="JavaScript" />
+        <label for="option_3">JavaScript</label>
+      </p>
+      <label for="signupinformation"
+        >Would you like to sign up for more information?</label
+      >
+      <p>
+        <input type="checkbox" id="signeup" name="signmeup" checked />
+        <label for="signmeup">Sign me Up!</label>
+      </p>
+      <label for="comments">Comments</label>
+      <p>
+        <textarea cols="30" rows="8"></textarea>
+      </p>
+    </form>
+  </body>
+</html>
